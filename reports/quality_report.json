@@ -1,0 +1,112 @@
+{
+  "enregistrements_recus": 3184,
+  "valeurs_manquantes_par_colonne": {
+    "id_local": 0,
+    "date": 0,
+    "region": 0,
+    "ville": 8,
+    "type_bien": 0,
+    "prix": 75,
+    "surface": 80,
+    "chambres": 0,
+    "salles_bain": 410
+  },
+  "doublons_exacts": 15,
+  "taux_doublons_pct": 0.47,
+  "erreurs_conversion_par_champ": {
+    "prix": 18,
+    "surface": 4,
+    "date": 6
+  },
+  "enregistrements_corriges": 1222,
+  "enregistrements_en_quarantaine": 205,
+  "enregistrements_conserves_avec_avertissement": 430,
+  "enregistrements_entierement_conformes": 2549,
+  "par_source": [
+    {
+      "source": "agence_teranga",
+      "recus": 640,
+      "propres": 631,
+      "quarantaine": 9,
+      "avec_avertissement": 126
+    },
+    {
+      "source": "import_historique",
+      "recus": 528,
+      "propres": 518,
+      "quarantaine": 10,
+      "avec_avertissement": 69
+    },
+    {
+      "source": "notaires",
+      "recus": 410,
+      "propres": 390,
+      "quarantaine": 20,
+      "avec_avertissement": 0
+    },
+    {
+      "source": "particuliers",
+      "recus": 731,
+      "propres": 595,
+      "quarantaine": 136,
+      "avec_avertissement": 199
+    },
+    {
+      "source": "plateforme",
+      "recus": 875,
+      "propres": 845,
+      "quarantaine": 30,
+      "avec_avertissement": 36
+    }
+  ],
+  "regles": [
+    {
+      "regle": "identifiant présent",
+      "evaluables": 3184,
+      "non_evaluables": 0,
+      "conformes": 3184,
+      "non_conformes": 0,
+      "taux_conformite_pct": 100.0
+    },
+    {
+      "regle": "transaction valide",
+      "evaluables": 3184,
+      "non_evaluables": 0,
+      "conformes": 3184,
+      "non_conformes": 0,
+      "taux_conformite_pct": 100.0
+    },
+    {
+      "regle": "prix valide",
+      "evaluables": 3109,
+      "non_evaluables": 75,
+      "conformes": 3086,
+      "non_conformes": 23,
+      "taux_conformite_pct": 99.26
+    },
+    {
+      "regle": "surface valide",
+      "evaluables": 3104,
+      "non_evaluables": 80,
+      "conformes": 3096,
+      "non_conformes": 8,
+      "taux_conformite_pct": 99.74
+    },
+    {
+      "regle": "date valide et non future",
+      "evaluables": 3184,
+      "non_evaluables": 0,
+      "conformes": 3173,
+      "non_conformes": 11,
+      "taux_conformite_pct": 99.65
+    },
+    {
+      "regle": "type dans le référentiel",
+      "evaluables": 3184,
+      "non_evaluables": 0,
+      "conformes": 3184,
+      "non_conformes": 0,
+      "taux_conformite_pct": 100.0
+    }
+  ]
+}

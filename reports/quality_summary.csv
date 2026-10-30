@@ -1,0 +1,7 @@
+regle,evaluables,non_evaluables,conformes,non_conformes,taux_conformite_pct
+identifiant présent,3184,0,3184,0,100.0
+transaction valide,3184,0,3184,0,100.0
+prix valide,3109,75,3086,23,99.26
+surface valide,3104,80,3096,8,99.74
+date valide et non future,3184,0,3173,11,99.65
+type dans le référentiel,3184,0,3184,0,100.0
